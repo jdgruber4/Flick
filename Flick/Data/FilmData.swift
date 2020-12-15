@@ -8,39 +8,6 @@
 import SwiftUI
 //import Foundation
 
-//struct Post: Codable, Identifiable {
-//    let id = UUID()
-//    var title: String
-//    var body: String
-//}
-//
-//let headers = [
-//    "x-rapidapi-key": "fb33465a55msh0bbacebd9133d72p16a29bjsn435c5b85036c",
-//    "x-rapidapi-host": "unogs-unogs-v1.p.rapidapi.com"
-//]
-//
-//class Api {
-//    func getPosts() {
-//        //let url = URL(string: "https://unogs-unogs-v1.p.rapidapi.com/api.cgi")
-//        let request = NSMutableURLRequest(url: NSURL(string: "https://unogs-unogs-v1.p.rapidapi.com/api.cgi")! as URL,
-//                                                cachePolicy: .useProtocolCachePolicy,
-//                                            timeoutInterval: 10.0)
-//        request.httpMethod = "GET"
-//        request.allHTTPHeaderFields = headers
-//        URLSession.shared.dataTask(with: request as URLRequest) { (data, response, error) -> Void in
-//            if (error != nil) {
-//                print(error)
-//            } else {
-//                let httpResponse = response as? HTTPURLResponse
-//                print(httpResponse)
-//            }
-//            let posts = try! JSONDecoder().decode([])
-//    }
-//}
-//}
-
-
-
 
 var filmData: [Film] = [
     Film(
